@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>182fde25-4d89-4320-8a06-1ebcbdd5cd14</ProjectGuid>
+    <ProjectGuid>{182FDE25-4D89-4320-8A06-1EBCBDD5CD14}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RewardsSummary</RootNamespace>
@@ -94,6 +94,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\coffee159x159.png" />
+    <Content Include="Assets\coffee336x336.png" />
+    <Content Include="Assets\coffee99x99.png" />
+    <Content Include="Assets\header640x130.png" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />

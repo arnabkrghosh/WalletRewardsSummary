@@ -9,6 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnLaunch" Content="Launch Rewards Summary" Grid.Row="0" HorizontalAlignment="Left" Margin="72,76,0,0" VerticalAlignment="Top" Click="btnLaunch_Click"/>
+        <Border x:Name="StatusBorder" Grid.Row="1" Visibility="Collapsed">
+            <TextBlock x:Name="StatusBlock" FontWeight="Bold" Margin="12, 10, 12, 10" TextWrapping="Wrap"/>
+        </Border>
 
     </Grid>
 </Page>
